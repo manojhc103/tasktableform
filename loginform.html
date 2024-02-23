@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        /* background-color: rgb(20, 1, 31); */
+        background-image: url(./bgc4.jpg);
+        background-size: cover;
+      }
+      .nav {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        background-image: url(./bgc4.jpg);
+        background-size: cover;
+        width: 100%;
+        justify-content: space-around;
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+        height: 80px;
+        position: sticky;
+        top: 0;
+      }
+      .options ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+        list-style: none;
+        color: aliceblue;
+      }
+      .nav img {
+        width: 10%;
+        height: 70px;
+        border-radius: 10px;
+      }
+      .options button {
+        background: rgb(249, 106, 23);
+        border-radius: 5px;
+        border: none;
+        padding: 5px;
+        color: aliceblue;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 80px;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        padding: 80px;
+        gap: 20px;
+        color: aliceblue;
+        text-align: center;
+        background-color: black;
+        box-shadow: rgba(246, 130, 6, 0.25) 0px 50px 100px -20px,
+          rgba(241, 72, 6, 0.3) 0px 30px 60px -30px,
+          rgba(235, 99, 8, 0.35) 0px -2px 6px 0px inset;
+        border-radius: 10px;
+      }
+      .firstdiv {
+        text-align: center;
+        padding: 100px;
+        color: aliceblue;
+      }
+      .firstdiv button {
+        background-color: #f6791a;
+        padding: 5px;
+        border-radius: 10px;
+        color: aliceblue;
+        margin-top: 10px;
+      }
+      h1 {
+        margin: 0px;
+      }
+      form button {
+        color: aliceblue(245, 106, 52);
+        border: none;
+        border-radius: 10px;
+        padding: 8px;
+        width: 100%;
+        margin: auto;
+        background-color: #f6791a;
+      }
+      form input {
+        padding: 10px;
+        background-color: black;
+
+        border-bottom: rgb(238, 133, 13);
+      }
+      form h1 {
+        color: #f1740e;
+      }
+      footer {
+        width: 100%;
+        color: aliceblue;
+        text-align: center;
+      }
+      .footer_div {
+        display: grid;
+
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .footer_div div {
+        /* border: 1px solid rebeccapurple; */
+        padding: 5px;
+        box-shadow: rgba(246, 130, 6, 0.25) 0px 50px 100px -20px,
+          rgba(241, 72, 6, 0.3) 0px 30px 60px -30px,
+          rgba(235, 99, 8, 0.35) 0px -2px 6px 0px inset;
+      }
+      .footer_div button {
+        background-color: #f1740e;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        color: aliceblue;
+      }
+      .footer_div button:hover {
+        background: aliceblue;
+        color: #f1740e;
+        cursor: pointer;
+      }
+      a{
+        list-style: none;
+        color: aliceblue;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <img class="logo" src="./logo.png" alt="" />
+      <div class="options">
+        <ul>
+          <li><a href="./index.html"> HOME</a></li>
+          <li><a href="./table.html"> EMAIL</a></li>
+          <li><a href="./calculator.html"> CALCULATE</a></li>
+          <li><a href="./loginform.html"> LOGIN</a></li>
+          <li>
+            <input type="search" placeholder="Type to Search" />
+            <button>Search</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="firstdiv">
+        <h1>Welcome</h1>
+        <h1>On Our Website</h1>
+        <h1>Thanks</h1>
+        <button>Join Us</button>
+      </div>
+      <div>
+        <form>
+          <h1>Login Here</h1>
+          <input type="emil" placeholder="Enter Email Here" />
+          <input type="password" placeholder="Enter Password Here" />
+          <button>Login</button>
+          <p>Don't have an account <br />
+           <a style="color: red;" href="./registor.html">Sign up</a> here</p>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <h1>Contact Us</h1>
+      <hr />
+      <p>Have any question? We'd love to hear from you</p>
+      <div class="footer_div">
+        <div>
+          <h2>Customer Care</h2>
+          <p>
+            Our Support team is spread all over the world to give you fast
+            responce
+          </p>
+          <button>Submit a Request</button>
+        </div>
+        <div>
+          <h2>Write Us</h2>
+          <p>You can write us if you have any queries</p>
+          <button>Write</button>
+        </div>
+        <div>
+          <h2>Sales and Marketing</h2>
+          <p>Get in touch with our sales and marketing team</p>
+          <button>Contact Sales</button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+        /* background-color: rgb(20, 1, 31); */
+        background-image: url(./bgc4.jpg);
+        background-size: cover;
+      }
+      .nav {
+        display: flex;
+        margin: auto;
+        align-items: center;
+        background-image: url(./bgc4.jpg);
+        background-size: cover;
+        width: 100%;
+        justify-content: space-around;
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+        height: 80px;
+        position: sticky;
+        top: 0;
+      }
+      .options ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+        list-style: none;
+        color: aliceblue;
+      }
+      .nav img {
+        width: 10%;
+        height: 70px;
+        border-radius: 10px;
+      }
+      .options button {
+        background: rgb(249, 106, 23);
+        border-radius: 5px;
+        border: none;
+        padding: 5px;
+        color: aliceblue;
+      }
+
+     .container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+     }
+      .firstdiv{
+
+        text-align: center;
+        padding: 20px;
+        color: aliceblue;        
+      }
+      .firstdiv h1{
+        margin: 0px;
+      }
+      .firstdiv button{
+        background-color: #f4740c;
+        margin: 10px;
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+      }
+      .table_div{
+        padding: 10px;
+
+      }
+      table{
+        border: 1px solid rgb(247, 163, 37);
+        text-align: center;
+        /* color: aliceblue; */
+        box-shadow: rgba(246, 130, 6, 0.25) 0px 50px 100px -20px,
+          rgba(241, 72, 6, 0.3) 0px 30px 60px -30px,
+          rgba(235, 99, 8, 0.35) 0px -2px 6px 0px inset;
+          border-radius: 5px;
+      }
+      .table_div th{
+        /* border: 1px solid green; */
+        padding: 10px;
+        background-color: #f6880b;
+        color: aliceblue;
+
+      }
+      .table_div td{
+        border: 1px solid green;
+        padding: 10px;
+        background-color: aliceblue;
+        color: #f1740e;
+    }
+      footer {
+        width: 100%;
+        color: aliceblue;
+        text-align: center;
+      }
+      .footer_div {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .footer_div div {
+        /* border: 1px solid rebeccapurple; */
+        padding: 5px;
+        box-shadow: rgba(246, 130, 6, 0.25) 0px 50px 100px -20px,
+          rgba(241, 72, 6, 0.3) 0px 30px 60px -30px,
+          rgba(235, 99, 8, 0.35) 0px -2px 6px 0px inset;
+      }
+      .footer_div button {
+        background-color: #f1740e;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        color: aliceblue;
+      
+      }
+      .footer_div button:hover{
+        background: aliceblue;
+        color: #f1740e;
+        cursor: pointer;
+      }
+      a{
+        list-style: none;
+        color: aliceblue;
+        text-decoration: none;
+      }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <img class="logo" src="./logo.png" alt="" />
+        <div class="options">
+          <ul>
+            <li><a href="./index.html"> HOME</a></li>
+            <li><a href="./table.html"> EMAIL</a></li>
+            <li><a href="./calculator.html"> CALCULATE</a></li>
+            <li><a href="./loginform.html"> LOGIN</a></li>
+            <li>
+              <input type="search" placeholder="Type to Search" />
+              <button>Search</button>
+            </li>
+          </ul>
+        </div>
+      </div> 
+      <div class="container">
+        <div class="firstdiv">
+            <h1>Our Team </h1>
+            <h1>And </h1>
+            <h1>Supporting Staff</h1>
+            <button>Join Us</button>
+
+        </div>
+        <div class="table_div">
+            <table>
+                <thead>
+                    <th>Sr.no</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Courese</th>
+                    <th>State</th>
+                    <th>Action</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Manoj</td>
+                        <td>manojgurjar@gmail.com</td>
+                        <td>HTML</td>
+                        <td>Rajsthan</td>
+                        <td>
+                            <button>Write</button>
+                            <button>Call</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Manish</td>
+                        <td>manishydv@gmail.com</td>
+                        <td>JAVA</td>
+                        <td>Panjab</td>
+                        <td>
+                            <button>Write</button>
+                            <button>Call</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Mohit</td>
+                        <td>mohitydv@gmail.com</td>
+                        <td>UI/UX</td>
+                        <td>Hariyana</td>
+                        <td>
+                            <button>Write</button>
+                            <button>Call</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Mukesh</td>
+                        <td>mukeshchd@gmail.com</td>
+                        <td>HTML</td>
+                        <td>Jharkand</td>
+                        <td>
+                            <button>Write</button>
+                            <button>Call</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Sitaram</td>
+                        <td>situram@gmail.com</td>
+                        <td>ALL</td>
+                        <td>Rajsthan</td>
+                        <td>
+                            <button>Write</button>
+                            <button>Call</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        </div>
+      </div>
+      <footer>
+        <h1>Contact Us</h1>
+        <hr />
+        <p>Have any question? We'd love to hear from you</p>
+        <div class="footer_div">
+          <div>
+            <h2>Customer Care</h2>
+            <p>
+              Our Support team is spread all over the world to give you fast
+              responce
+            </p>
+            <button>Submit a Request</button>
+          </div>
+          <div>
+            <h2>Write Us</h2>
+            <p>You can write us if you have any queries</p>
+            <button>Write</button>
+          </div>
+          <div>
+            <h2>Sales and Marketing</h2>
+            <p>Get in touch with our sales and marketing team</p>
+            <button>Contact Sales</button>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
